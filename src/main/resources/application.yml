@@ -1,0 +1,6 @@
+server:
+  port: 20230
+  servlet:
+    context-path: /
+log:
+  serverName: admin-server-01
