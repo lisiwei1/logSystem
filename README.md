@@ -185,6 +185,7 @@ output {
 
 
 #### ELK使用
+ELK是可以设置密码的，有需要请自行设置
 
 启动ELK后，用浏览器打开http://localhost:5601/
 
