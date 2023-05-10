@@ -137,7 +137,7 @@ logback.xml文件若用不上ELK则直接将右边两处的红框的内容删掉
 ![image](https://user-images.githubusercontent.com/44285123/236731416-259681b5-bf6b-43d5-8524-2e4150de95d8.png)
 往文件里面添加下面内容。其中input-tcp下的host和port要跟logbacj.xml中的destination配置一致。
 
-然后修改output-elasticsearch-index的内容，即"weblog-info-test-%{+YYYY.MM.dd}"，只改weblog-info-test这部分，此处是设置日志索引名称的，后面创建索引模式需要用到，到时需要用到 weblog-info-test-*
+然后修改output-elasticsearch-index的内容，即"weblog-info-test-%{+YYYY.MM.dd}"，自定义索引名称请改weblog-info-test这部分，此处是设置日志索引名称的，后面创建索引模式需要用到，到时需要用到 weblog-info-test-*
 
 ```
 input {
