@@ -1,4 +1,8 @@
 ## 项目说明
+```
+此项目已经过时了，请看最新的项目，地址：https://github.com/lisiwei1/spring-boot-starter-log
+新项目优化了一些代码，而且写成starter，上手更便捷
+```
 
 > 项目地址：https://github.com/lisiwei1/logSystem
 
